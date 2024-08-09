@@ -5,8 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/modal.css" />
   </head>
   <body>
+    <button type="button" class="modal-show" data-modal="#sign-in">
+      Show button
+    </button>
+
+    <div class="modal-wrap hide">
+      <div class="modal">
+        Our modal window
+        <button type="button" class="modal-close">Close</button
+        ><button type="button" class="modal-close round-close">x</button>
+      </div>
+    </div>
+
+    <div class="block-modal-test">
+      <div class="form-slider">
+        <div class="left-50"></div>
+        <div class="right-50"></div>
+      </div>
+    </div>
+
     <script type="module" src="./script/script.js"></script>
   </body>
 </html>

@@ -1,0 +1,36 @@
+.round-close {
+  border: 1px solid red;
+  border: radius 100%;
+  background: red;
+  color: #fff;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  line-height: 14px;
+}
+
+.block-modal-test {
+  width: 250px;
+  height: 340px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 100px auto;
+  position: relative;
+}
+
+.form-slider {
+  width: 500px;
+  height: 340px;
+  background: grey;
+}
+
+.left-50 .right-50 {
+  width: 50%;
+  float: left;
+  background: green;
+  min-height: 50px;
+}
+
+.right-50 {
+  background: red;
+}
